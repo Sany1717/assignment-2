@@ -66,5 +66,32 @@
     font-weight: 800;
     line-height: 120%;
   }
+  .ul_item {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+  }
+  .ul_item li {
+    padding: 8px 20px;
+    list-style: none;
+  }
+  .ul_item li a {
+    padding: 8px 20px;
+    list-style: none;
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: var(--font-main);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+  .home_bottom {
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+  }
+  .div_bars {
+    display: none;
+  }
   
   
