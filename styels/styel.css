@@ -189,6 +189,97 @@
     text-align: left;
   }
 
+
+  .change {
+    background-color: var(--main-bg-color);
+    width: 100%;
+    min-height: 50vh;
+    padding: 3rem 0rem;
+  }
+  
+  .change_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--text-color);
+  }
+  .change_text h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .change_text p {
+    width: 694px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+  .change_img {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    gap: 80px;
+    color: var(--text-color);
+    margin: 0px 130px;
+  }
+  .change_style {
+    text-align: center;
+  }
+  .change_style img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .p_style {
+    color: var(--text-second-color);
+    font-family: var(--font-main);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+
+  .Extra {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--text-color);
+    background: rgba(160, 159, 159, 0.096);
+    margin: 0px 170px;
+    border-radius: 25px;
+    padding: 25px;
+    gap: 50px;
+  }
+  .Extra_text {
+    width: 600px;
+  }
+  .Extra_text h1 {
+    font-size: 40px;
+    text-align: left;
+    margin-right: 160px;
+  }
+  
+  .Extra_text_div p {
+    width: 494px;
+    text-align: left;
+    margin: 25px 0px;
+  }
+  .botton_join {
+    padding: 20px 120px;
+  }
+  .Extra_img {
+    margin: 20px 30px;
+  }
+  .Extra_img img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+
   .BMI {
     background: rgb(34, 34, 34);
     width: 100%;
@@ -286,5 +377,37 @@
   select option{
   color: var(--second-bg-color);
   }
+
+
+  .Our {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    color: var(--text-color);
+    background: rgba(160, 159, 159, 0.096);
+    margin: 0px 170px;
+    border-radius: 25px;
+    padding: 14px;
+    gap: 18px;
+  }
+  .Our_img {
+    position: relative;
+  }
+  .Our_img img {
+    width: 100%;
+    height: 310px;
+    border-radius: 20px;
+    opacity: 0.7;
+  }
+  .Our_text {
+    position: absolute;
+    left: 20px;
+    bottom: 25px;
+  }
+  .title {
+    font-size: 23px;
+  }
   
   
+
+ 
