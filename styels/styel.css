@@ -408,6 +408,281 @@
     font-size: 23px;
   }
   
+
+  .footer {
+    background: linear-gradient(
+      190deg,
+      rgb(17, 17, 17),
+      rgb(28 27 27 / 92%) 100%
+    );
+    width: 100%;
+    padding: 3rem 0rem 1.5rem 0rem;
+  }
+  .div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+    color: var(--text-color);
+    margin: 0px 170px;
+    padding: 14px;
+  }
+  .text {
+    max-width: 500px;
+    margin-top: 25px;
+  }
+  .Title {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .footer_items {
+    list-style: none;
+  }
+  .footer_items li {
+    margin: 10px 0px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 120%;
+    text-align: left;
+  }
+  .copyright {
+    color: var(--text-color);
+    margin: 0px 170px;
+  }
+  .horizontal {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .copyright_text {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: var(--font-main);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin-top: 36px;
+  }
+  /* =========================================================================================================================================================================================================================================== */
+  /* Desktop-First Media Queries */
+  /* Devices from 993px to 1200px */
+  @media (max-width: 1200px) {
+    .hero_text_div {
+      width: 370px;
+    }
+    .section_text_div h1 {
+      font-size: 55px;
+      line-height: 147%;
+    }
+    .p_text {
+      font-size: 13px;
+      line-height: 20px;
+    }
+    .bottom_download {
+      margin-top: 15px;
+      margin-left: 0px;
+    }
+    .section_videos {
+      position: absolute;
+      right: -40px;
+      top: 125px;
+    }
+    .section_tutorial {
+      position: absolute;
+      left: -70px;
+      bottom: 90px;
+    }
   
+    .div_bars {
+      display: none;
+    }
+
+
+    /* run div  */
+  .Run_div {
+    margin: 0px 82px;
+  }
+  .Run_text_div h1 {
+    margin-right: 40px;
+  }
+  .Run_text_div p {
+    width: 363px;
+  }
+  .join_btn_style {
+    padding: 20px 91px;
+  }
+  .run_img_div_style {
+    margin: 0px;
+  }
+  /* Bmi calculator  */
+  .bmiCalculator_menu {
+    margin: 0px 80px;
+    column-gap: 30px;
+}
+  /* Team_div */
+  .Team_div {
+    margin: 0px 80px;
+    gap: 18px;
+  }
+  .team_img_div_style img {
+    width: 100%;
+    height: 235px;
+  }
+  /* footer div */
+  .footer_div {
+    margin: 0px 80px;
+}
+.footer_copyright{
+  margin: 0 80px;
+}
+.footer_para_text {
+  max-width: 380px;
+}
+}
+/* Devices from 577px to 992px*/
+/* @media (max-width: 992px) {
+} */
+/* Devices from 0px to 576px */
+@media (max-width: 576px) {
+  #header {
+    min-height: 80px;
+    padding-top: 21px;
+}
+  .header_nav {
+    justify-content: space-between;
+    padding: 0px 20px;
+  }
+  .brand_name{
+    font-size: 25px;
+  }
+  .nav_item {
+    display: none;
+  }
+  .bars {
+    color: var(--text-color);
+    font-size: 25px;
+    display: block;
+  }
+  /* hero part  */
+  .hero_div {
+    display: block;
+    padding: 0px 20px;
+  }
+  .hero_text_div {
+    width: 100%;
+  }
+  .hero_text_div h1 {
+    font-size: 50px;
+}
+  .hero_font_style{
+    margin: 0px 15px;
+    font-size: 5rem;
+  }
+  .hero_img_div {
+    padding-top: 50px;
+    text-align: center;
+  }
+  .hero_img_div img{
+    width: 100%;
+  }
+  .btn {
+    font-size: 17px;
+    padding: 13px 26px;
+  }
+  .btn-download {
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  .hero_Workout_videos_div {
+    position: absolute;
+    right: 20px;
+    top: 185px;
+  }
+  .hero_videos_tutorial_div {
+    position: absolute;
+    left: 10px;
+    bottom: 50px;
+  }
+  /* habit Image section */
+  .habits_div {
+    display: block;
+  }
+  .habits_text_div p {
+    width: 100%;
+    padding: 0px 60px;
+  }
+  .habits_img_div {
+    grid-template-columns: auto;
+    margin: 0px 61px;
+  }
+  /* Run div  */
+  .Run_div {
+    display: block;
+    padding: 25px;
+    margin: 0px 20px;
+  }
+  .Run_text_div {
+    width: 100%;
+  }
+  .Run_text_div h1 {
+    margin-right: 0px;
+  }
+  .Run_text_div p {
+    width: 100%;
+  }
+  .join_btn_style {
+    width: 100%;
+    padding: 20px 0px;
+  }
+  .run_img_div_style {
+    margin: 0px;
+    padding-top: 30px;
+  }
+  
+  .BMI_text p {
+    width: 100%;
+}
+.BMI_menu {
+  margin: 0px 20px;
+  row-gap: 42px;
+}
+.form_input {
+  column-gap: 10px;
+}
 
  
+  .Our {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0px 20px;
+    gap: 18px;
+  }
+  .Our_img img {
+    width: 100%;
+    height: auto;
+  }
+  .title {
+    font-size: 15px;
+  }
+
+
+  .div {
+    margin: 0px 20px;
+  }
+  .item {
+    flex: 100%;
+    margin-bottom: 30px;
+  }
+  .item2 {
+    flex: 100%;
+
+    margin-bottom: 30px;
+  }
+  .copyright {
+    margin: 0px 20px;
+  }
+}
