@@ -93,5 +93,198 @@
   .div_bars {
     display: none;
   }
+
+  .section {
+    background: linear-gradient(
+      0deg,
+      rgb(17, 17, 17),
+      rgba(12, 12, 12, 0.911) 100%
+    );
+    width: 100%;
+    min-height: 80vh;
+    margin: 0 auto;
+    padding: 3rem 0rem;
+  }
+  .section_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .section_text_div {
+    width: 520px;
+  }
+  .section_text_div h1 {
+    color: var(--text-color);
+    font-family: var(--font-main);
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .section_text_div p {
+    margin: 28px 0px;
+  }
+  .section_font {
+    /* font-style: var(--font-main); */
+    font-size: 7rem;
+    font-style: italic;
+    text-transform: lowercase;
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .bottom_download {
+    background-color: var(--main-bg-color);
+    border: 1px solid var(--text-color);
+    margin-left: 15px;
+  }
+  .section_img {
+    position: relative;
+  }
+  .section_videos {
+    position: absolute;
+    color: var(--text-color);
+    right: -70px;
+    top: 125px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.089);
+    padding: 17px 24px;
+  }
+  .section_videos h2 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: left;
+  }
+  .section_tutorial {
+    position: absolute;
+    color: var(--text-color);
+    left: -90px;
+    bottom: 90px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0);
+    padding: 17px 24px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  .section_tutorial_round {
+    width: 35px;
+    height: 35px;
+    background: var(--btn-bg-color);
+    border-radius: 50%;
+  }
+  .section_tutorial_text h2 {
+    color: rgb(250, 250, 249);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+  }
+
+  .BMI {
+    background: rgb(34, 34, 34);
+    width: 100%;
+    min-height: 50vh;
+    padding: 3rem 0rem;
+  }
+  
+  .BMI_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--text-color);
+  }
+  .BMI_text h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .BMI_text p {
+    width: 694px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+  .BMI_menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+    color: var(--text-color);
+    margin: 0px 170px;
+    padding: 14px;
+    column-gap: 44px;
+  }
+  .BMI_title {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: left;
+  }
+  .BMI_p_text {
+    margin: 20px 80px 34px 0px;
+  }
+  .BMI_Tabel {
+    border-collapse: collapse;
+    margin-top: 50px;
+  }
+  
+  .BMI_Tabel td,
+  .BMI_Tabel th {
+    font-family: var(--font-main);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 18px;
+    text-align: center;
+    line-height: 120%;
+  }
+  
+  .BMI_Tabel th {
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    font-weight: 500;
+  }
+  
+  .BMI_Tabel td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .BMI_frist_item {
+    flex: 40%;
+  }
+  .BMI_second_item {
+    flex: 55%;
+  }
+  .form_input{
+    display: flex;
+    column-gap: 20px;
+  }
+  
+  input[type="text"],
+  select {
+    padding: 12px 20px;
+    margin: 13px 0;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+  font-family: var(--font-main);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  width: 100%;
+  }
+  
+  select option{
+  color: var(--second-bg-color);
+  }
   
   
