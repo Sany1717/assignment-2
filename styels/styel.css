@@ -267,7 +267,7 @@
     text-align: left;
     margin: 25px 0px;
   }
-  .botton_join {
+  .bottom_join {
     padding: 20px 120px;
   }
   .Extra_img {
@@ -323,13 +323,12 @@
   .BMI_p_text {
     margin: 20px 80px 34px 0px;
   }
-  .BMI_Tabel {
+  .Table {
     border-collapse: collapse;
     margin-top: 50px;
   }
   
-  .BMI_Tabel td,
-  .BMI_Tabel th {
+  .Table td,.Table th {
     font-family: var(--font-main);
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 18px;
@@ -337,21 +336,21 @@
     line-height: 120%;
   }
   
-  .BMI_Tabel th {
+  .Table th {
     color: rgb(255, 255, 255);
     font-size: 21px;
     font-weight: 500;
   }
   
-  .BMI_Tabel td {
+  .Table td {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
   }
-  .BMI_frist_item {
+  .BMI_item1 {
     flex: 40%;
   }
-  .BMI_second_item {
+  .BMI_item2 {
     flex: 55%;
   }
   .form_input{
@@ -467,9 +466,7 @@
     text-align: center;
     margin-top: 36px;
   }
-  /* =========================================================================================================================================================================================================================================== */
-  /* Desktop-First Media Queries */
-  /* Devices from 993px to 1200px */
+ 
   @media (max-width: 1200px) {
     .hero_text_div {
       width: 370px;
@@ -501,45 +498,44 @@
       display: none;
     }
 
-..........................................
-    /* run div  */
-  /* .Run_div {
+
+ .Extra {
     margin: 0px 82px;
   }
   .Run_text_div h1 {
     margin-right: 40px;
   }
-  .Run_text_div p {
+  .Extra_text p {
     width: 363px;
   }
-  .join_btn_style {
+  .bottom_join {
     padding: 20px 91px;
   }
-  .run_img_div_style {
+  .Extra_img {
     margin: 0px;
   }
-  /* Bmi calculator  */
-  .bmiCalculator_menu {
+
+  .BMI {
     margin: 0px 80px;
     column-gap: 30px;
 }
-  /* Team_div */
-  .Team_div {
+
+  .Our {
     margin: 0px 80px;
     gap: 18px;
   }
-  .team_img_div_style img {
+  .Our_img img {
     width: 100%;
     height: 235px;
   }
-  /* footer div */
-  .footer_div {
+
+  .div {
     margin: 0px 80px;
 }
-.footer_copyright{
+.copyright{
   margin: 0 80px;
 }
-.footer_para_text {
+.text {
   max-width: 380px;
 }
 }
@@ -556,93 +552,93 @@
     justify-content: space-between;
     padding: 0px 20px;
   }
-  .brand_name{
+  .title_name{
     font-size: 25px;
   }
-  .nav_item {
+  .ul_item {
     display: none;
   }
-  .bars {
+  .div_bars {
     color: var(--text-color);
     font-size: 25px;
     display: block;
   }
-  /* hero part  */
-  .hero_div {
+
+  .section_div {
     display: block;
     padding: 0px 20px;
   }
-  .hero_text_div {
+  .section_text_div {
     width: 100%;
   }
-  .hero_text_div h1 {
+  .section_text_div h1 {
     font-size: 50px;
 }
-  .hero_font_style{
+  .section_font{
     margin: 0px 15px;
     font-size: 5rem;
   }
-  .hero_img_div {
+  .section_img {
     padding-top: 50px;
     text-align: center;
   }
-  .hero_img_div img{
+  .section_img img{
     width: 100%;
   }
-  .btn {
+  .bottom {
     font-size: 17px;
     padding: 13px 26px;
   }
-  .btn-download {
+  .bottom_download {
     margin-top: 15px;
     margin-left: 10px;
   }
-  .hero_Workout_videos_div {
+  .section_videos {
     position: absolute;
     right: 20px;
     top: 185px;
   }
-  .hero_videos_tutorial_div {
+  .section_tutorial {
     position: absolute;
     left: 10px;
     bottom: 50px;
   }
-  /* habit Image section */
-  .habits_div {
+  
+  .change_div {
     display: block;
   }
-  .habits_text_div p {
+  .change_text p {
     width: 100%;
     padding: 0px 60px;
   }
-  .habits_img_div {
+  .change_img {
     grid-template-columns: auto;
     margin: 0px 61px;
   }
-  /* Run div  */
-  .Run_div {
+
+  .Extra {
     display: block;
     padding: 25px;
     margin: 0px 20px;
   }
-  .Run_text_div {
+  .Extra_text {
     width: 100%;
   }
-  .Run_text_div h1 {
+  .Extra_text h1 {
     margin-right: 0px;
   }
-  .Run_text_div p {
+  .Extra_text p {
     width: 100%;
   }
-  .join_btn_style {
+  .bottom_join {
     width: 100%;
     padding: 20px 0px;
   }
-  .run_img_div_style {
+  .Extra_img {
     margin: 0px;
     padding-top: 30px;
-  } */
-  ..........................................................
+  }
+  
   .BMI_text p {
     width: 100%;
 }
